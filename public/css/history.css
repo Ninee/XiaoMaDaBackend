@@ -1,0 +1,32 @@
+.header {
+    height: 1.76rem;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    /* color: #fff; */
+    font-size: 0.6rem;
+    line-height: 1.76rem;
+}
+.contents .weui-cell__bd .list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contents .weui-cell__bd .list-item .avatar{
+    width: 0.6667rem;
+    height: 0.6667rem;
+    border-radius: 50%;
+}
+.contents .weui-cell__bd .list-item .nickname {
+    font-size: 0.32rem;
+    margin: 0 0.1333rem;
+}
+.contents .weui-cell__bd .list-item .type {
+    font-size: 0.36rem;
+    color: #F83557;
+}
+.contents .weui-cell__ft {
+    font-size: 0.36rem;
+    color: #F83557;
+}

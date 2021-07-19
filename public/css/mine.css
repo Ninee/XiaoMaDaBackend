@@ -1,0 +1,77 @@
+.header {
+    width: 100%;
+    height: 7.4667rem;
+    background-color: #EC8B89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header .avatar {
+    width: 2.3733rem;
+    height: 2.3733rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.header .nickname {
+    color: #fff;
+}
+.contents .property-card {
+    width: 9rem;
+    background-color: #fff;
+    border-radius: 0.1333rem;
+    margin: -1.667rem auto auto auto;
+    padding: 0.2667rem;
+}
+.contents .property-card .withdraw {
+    padding:  0.6rem 0;
+    font-size: 0.32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #979797;
+    width: 100%;
+    border-bottom: 1px solid #979797;
+}
+.contents .property-card .withdraw .number {
+    color: #F83557;
+    font-size: 0.5rem;
+}
+.contents .property-card .withdraw-btn {
+    width: 1.6rem;
+    height: 0.7333rem;
+    padding: 0.1rem;
+    line-height: 0.5333rem;
+    background: none;
+    border: 1px solid #F83557;
+    color: #F83557;
+    border-radius: 0.3667rem;
+}
+.contents .property-card .history {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contents .property-card .history .history-col {
+    text-align: center;
+    padding: 0.6rem;
+}
+.gray-text {
+    color: #979797;
+}
+.contents .property-card .history .history-col .text {
+    font-size: 0.32rem;
+}
+.contents .property-card .history .history-col .number {
+    color: #F83557;
+}
+.contents .trend-card {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 6.6667rem;
+    background-color: #fff;
+}
+.contents .trend-card canvas {
+    width: 100%;
+    height: 100%;
+}
